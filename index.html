@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        function check(x, y) {
+            if (x == 15 || y == 15 || x + y == 15 || Math.abs(x - y == 15)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        console.log(check(15, 9));
+        console.log(check(25, 15));
+        console.log(check(7, 8));
+        console.log(check(25, 10));
+        console.log(check(5, 9));
+        console.log(check(7, 9));
+        console.log(check(9, 25));
+
+    </script>
+</body>
+</html>
